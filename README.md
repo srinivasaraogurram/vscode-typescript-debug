@@ -1,7 +1,17 @@
 # vscode-typescript-debug
 This Repository will have configuration for developing and working with typescript
 
-git Instructions
+zip file: this will help associates to run download the repo and to play around the process defined
+
+Youtube link:
+https://www.youtube.com/watch?v=f3i9b3uK00U
+
+Project:
+this will contain individual files. for the project. Users can clone and get to local and fetch the data.
+
+
+git Instructions.
+-----------------
 
 …or create a new repository on the command line
 
