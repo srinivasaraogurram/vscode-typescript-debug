@@ -2,7 +2,7 @@
 This Repository will have configuration for developing and working with typescript
 
 zip file: this will help associates to run download the repo and to play around the process defined
-
+https://github.com/srinivasaraogurram/vscode-typescript-debug/blob/main/zipfile/typescript-debug.zip
 Youtube link:
 https://www.youtube.com/watch?v=f3i9b3uK00U
 
