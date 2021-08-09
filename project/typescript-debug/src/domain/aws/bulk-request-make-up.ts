@@ -41,14 +41,8 @@ export class DbKeys {
     public requestKey: string; // REQ#1001
 }
 
-export class Cancel {
-    public regId: Array<string>;
-}
-
 export class MakeUp {
     public regIds: Array<string>;
-    public fromTcaId: String;
-    public toTcaId: String;
 }
 
 

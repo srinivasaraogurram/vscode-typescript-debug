@@ -1,0 +1,82 @@
+{
+  "arguments": {
+    "input": {
+      "bulkRequest": {
+        "requestKeys": {
+          "action": "MAKEUP",
+          "reason": "Missing Answer Sheet",
+          "notify": "Y",
+          "customer": "Mary Popin",
+          "requestor": "John Doe",
+          "requestDt": "4/1/2021",
+          "mode": "TCA",
+          "note": ""
+        },
+        "dbKeys": {
+          "pk": "",
+          "sk": "",
+          "requestKey": ""
+        },
+        "actionData": {}
+      },
+      "makeup": {
+        "regIds": [
+          "101",
+          "102"
+        ],
+        "fromTcaId": "from-tca-100",
+        "toTcaId": "to-tca-300"
+      }
+    }
+  },
+  "identity": {
+    "accountId": "586036623065",
+    "cognitoIdentityAuthProvider": null,
+    "cognitoIdentityAuthType": null,
+    "cognitoIdentityId": null,
+    "cognitoIdentityPoolId": null,
+    "sourceIp": [
+      "72.21.217.78"
+    ],
+    "userArn": "arn:aws:sts::586036623065:assumed-role/HeroesDevRole/schennadi",
+    "username": "AROAYQ4UBG3MZ5PR7MJOR:schennadi"
+  },
+  "source": null,
+  "request": {
+    "headers": {
+      "content-encoding": "amz-1.0",
+      "x-forwarded-for": "72.21.217.78, 130.176.98.142",
+      "cloudfront-is-tablet-viewer": "false",
+      "cloudfront-viewer-country": "US",
+      "via": "1.1 0712e4ad4264127dfcb76a114b130495.cloudfront.net (CloudFront)",
+      "cloudfront-forwarded-proto": "https",
+      "content-length": "122",
+      "host": "fag77wf76bb75npvvx6skp4s5q.appsync-api.us-east-1.amazonaws.com",
+      "x-forwarded-proto": "https",
+      "user-agent": "aws-internal/3 aws-sdk-java/1.11.976 Linux/5.4.102-52.177.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.282-b08 java/1.8.0_282 vendor/Oracle_Corporation cfg/retry-mode/legacy",
+      "accept": "application/json, text/javascript",
+      "cloudfront-is-mobile-viewer": "false",
+      "x-amz-date": "20210511T124758Z",
+      "cloudfront-is-smarttv-viewer": "false",
+      "amz-sdk-request": "ttl=20210511T124858Z;attempt=1;max=1",
+      "amz-sdk-invocation-id": "1dfeb6b8-ffd8-3a8e-712b-ed1216ff68c8",
+      "x-amz-security-token": "IQoJb3JpZ2luX2VjEB0aCXVzLWVhc3QtMSJGMEQCIF0tt2z44APBXaiGnZzqKsbOc9AzyoWKuPG6Nx840Zp9AiABrORL8F0VhCYF8whkd7Q7qgwDtPeIokTK0RotiHYObSqrAwim//////////8BEAAaDDU4NjAzNjYyMzA2NSIM6Hbz4AH+3H8PonADKv8CLtF7drIKowgU0kr7KAJqPodELYbUcw65Fi88brV8akAFAmIvtY1kCoUQdR3ZG4aYpOvAhC7GKCksbCAKOU874mWuDMTdtVIsO1kgMkfSDfsvIFuOB4V0Iqg7BSZ3N9T3qHdvlswT7OLs7IXFdH/h7cazorgpBIjq15pdVoPa+q68pJ5iztK6zKEc6QEEAEMXEtlO/df4B1/OfKCA/shmU0lcdMz3fi/eA82AdfINGksMZSuT64Zo6/yVbzMlmp2v9s3koosb7mX6Dwlydrr9BZuaYpJLM2UagN+tTyjCMb1OWY+QCTAWXJe6FHGpNXvflRdIsoeivY6mLGwpJk63kQt5if/HG6ZCE89BVmJq7EWtJDaDW8ZXyY40bY5C0S1Wz6Een/4IscERZXZal/K/vPkhUpQLyFJ7vwPEJ3Ny7wsZW7hnO+8SP8JfAzF1BAEdAG81hrYiH8m7+CcOiChcYFHEwHqsRydRI9QaJdq7T++VGe5eN8PffBZiMM4rvW4wsvbphAY6iwL9KXnHnPNUJbJEhje9W8acIjyhIAAnf8ppOLY0uLWHnbU9CydFPrjCO+o2iFBQxhiUVBmC+mr/g9JKnbXC1bGHOSKjtRN66fuYsLZtui5aT5NF0mytYx3ncskqfshgaMYpvE2Z8zTibElNsZTxJkLEuK0XNcnS+htirvVjGEw9Ae5Hr+kohIKhdeh0oROfkxK7+oCr3dFNgdFD6qtCPQK5osRvjvR1aBwkLEVAh/hpXTe9ZMaSplzHAxoDdTTKrb5YaTXYL8FekjXRAdxkWNF28kw2WSzvWhurNrp9cNWSQvI9W682339e5VUoMFdGik5dFEBHZFFw1XelHyofdvjDVKN8Asd8ejNxy0s=",
+      "content-type": "application/json",
+      "x-amz-cf-id": "4CN89G91GL2rjewUVKuvgRsLgyLrxKYWowd8eIOvOMnTA9a0p7EM3A==",
+      "x-amzn-trace-id": "Root=1-609a7cfe-3b3edae10ee032d232090e5a",
+      "authorization": "AWS4-HMAC-SHA256 Credential=ASIAYQ4UBG3MTYDYIK5A/20210511/us-east-1/appsync/aws4_request, SignedHeaders=accept;content-encoding;content-length;content-type;host;x-amz-date;x-amz-security-token, Signature=ebbf08dbc3d97d94eaed261f41836dd3a80ae98c078cbddefe58845ae5d9a960",
+      "amz-sdk-retry": "0/0/500",
+      "cloudfront-is-desktop-viewer": "true",
+      "x-forwarded-port": "443"
+    }
+  },
+  "prev": null,
+  "info": {
+    "parentTypeName": "Query",
+    "selectionSetList": [],
+    "selectionSetGraphQL": "",
+    "fieldName": "validateRegId",
+    "variables": {}
+  },
+  "stash": {}
+}
